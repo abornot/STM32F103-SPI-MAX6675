@@ -14,4 +14,4 @@ MCU 型号为 STM32F103RCT6，采用硬件 SPI 采集 MAX6675 转换后的热电
 - 工程使用 IDE 为 ARM Keil 5.14
 - 只能用于 K 型热电偶，其他型号自测
 - 温度值在数组 GssThermocoupleTemperature[i] 中，共 3 路
-- 硬件 SPI 采集部分参考正点原子例程，修改了 SPI 初始化部分中 SPI_CPOL_Low、SPI_CPHA_1Edge 以及 SPI 速度设置分频倍数 SPI_BaudRatePrescaler_8
+- 参考正点原子，修改初始化中 SPI_CPOL_Low、SPI_CPHA_1Edge 和 SPI 速度设置 SPI_BaudRatePrescaler_8
